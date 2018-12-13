@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\LicenseDetails.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\LicenseServer.cs" />
+    <Compile Include="Services\Maintenance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
