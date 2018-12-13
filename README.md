@@ -6,7 +6,8 @@ Requires 4 arguments for succesfull usage:
 * TCP service port
 * Key index (when multiple keys are connected to the server)
 * Key license
+* Outputpath for file
 
 Example:
 
-GemaltoSentinel.exe hostname 6002 1 000001234
+GemaltoSentinel.exe hostname 6002 1 000001234 c:\temp\result.txt
